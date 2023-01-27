@@ -1,0 +1,278 @@
+@import "normalize.css";
+@import "bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@font-face {
+  font-family: 'SF UI Display';
+  src: url('../fonts/SFUIDisplay-Semibold.woff2') format('woff2'),
+      url('../fonts/SFUIDisplay-Semibold.woff') format('woff'),
+      url('../fonts/SFUIDisplay-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  src: url('../fonts/SFUIDisplay-Medium.woff2') format('woff2'),
+      url('../fonts/SFUIDisplay-Medium.woff') format('woff'),
+      url('../fonts/SFUIDisplay-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('../fonts/BebasNeueBold.woff2') format('woff2'),
+      url('../fonts/BebasNeueBold.woff') format('woff'),
+      url('../fonts/BebasNeueBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  src: url('../fonts/SFUIDisplay-Heavy.woff2') format('woff2'),
+      url('../fonts/SFUIDisplay-Heavy.woff') format('woff'),
+      url('../fonts/SFUIDisplay-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('../fonts/BebasNeueRegular.woff2') format('woff2'),
+      url('../fonts/BebasNeueRegular.woff') format('woff'),
+      url('../fonts/BebasNeueRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  src: url('../fonts/SFUIDisplay-Bold.woff2') format('woff2'),
+      url('../fonts/SFUIDisplay-Bold.woff') format('woff'),
+      url('../fonts/SFUIDisplay-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  src: url('../fonts/SFUIDisplay-Black.woff2') format('woff2'),
+      url('../fonts/SFUIDisplay-Black.woff') format('woff'),
+      url('../fonts/SFUIDisplay-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  src: url('../fonts/SFUIDisplay-Light.woff2') format('woff2'),
+      url('../fonts/SFUIDisplay-Light.woff') format('woff'),
+      url('../fonts/SFUIDisplay-Light.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('../fonts/BebasNeueLight.woff2') format('woff2'),
+      url('../fonts/BebasNeueLight.woff') format('woff'),
+      url('../fonts/BebasNeueLight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('../fonts/BebasNeue-Thin.woff2') format('woff2'),
+      url('../fonts/BebasNeue-Thin.woff') format('woff'),
+      url('../fonts/BebasNeue-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bebas Neue Book';
+  src: url('../fonts/BebasNeueBook.woff2') format('woff2'),
+      url('../fonts/BebasNeueBook.woff') format('woff'),
+      url('../fonts/BebasNeueBook.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  src: url('../fonts/SFUIDisplay-Thin.woff2') format('woff2'),
+      url('../fonts/SFUIDisplay-Thin.woff') format('woff'),
+      url('../fonts/SFUIDisplay-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  src: url('../fonts/SFUIDisplay-Ultralight.woff2') format('woff2'),
+      url('../fonts/SFUIDisplay-Ultralight.woff') format('woff'),
+      url('../fonts/SFUIDisplay-Ultralight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+body{
+  font-family: 'SF UI Display', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  color: #313131;
+}
+img{
+  max-width: 100%;
+}
+input,
+button,
+button:focus{
+  outline: none;
+  box-shadow: none !important;
+}
+.header{
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 53%, rgba(255,255,255,0.6) 75%, rgba(255,255,255,0) 100%);
+}
+a:hover{
+  text-decoration: none;
+}
+.btn-callback{
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  background: linear-gradient(158.45deg, rgba(162, 255, 240, 0.85) -42.33%, rgba(10, 198, 167, 0.65) 30.72%, rgba(28, 145, 231, 0.85) 111.79%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  padding: 12px 25px;
+
+}
+
+.main-nav a{
+  margin-right: 40px;
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #313131;
+  transition: all .3s ease;
+}
+.main-nav a:last-of-type{
+  margin-right: 0;
+}
+.main-nav a.active{
+  font-weight: 600;
+}
+.main-nav a:hover{
+
+}
+.main-banner{
+  background-image: url("../img/banner.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 80px;
+}
+.banner-title{
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 55px;
+  letter-spacing: 0.04em;
+  background: linear-gradient(188.65deg, #12B3C9 6.6%, rgba(31, 174, 193, 0) 95.01%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 25px;
+}
+.banner-title .black{
+  color: #000;
+  -webkit-text-fill-color: #000;
+}
+.banner-text{
+  font-family: 'SF UI Display';
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  color: #313131;
+  margin-bottom: 40px;
+}
+.btn-regular{
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: linear-gradient(180deg, #BBFEE6 -26.46%, #01BCBC 100%);
+  border-radius: 40px;
+  width: 300px;
+  height: 60px;
+  -webkit-box-shadow: 0px 5px 10px 10px rgba(1, 188, 188, 0.2);
+  -moz-box-shadow: 0px 5px 10px 10px rgba(1, 188, 188, 0.2);
+  box-shadow: 0px 5px 10px 10px rgba(1, 188, 188, 0.2) !important;
+  border: none;
+}
+.main-banner .btn-regular{
+  position: relative;
+}
+.main-banner .btn-regular:before{
+  content: "FREE";
+  position: absolute;
+  right: -10px;
+  top: -30px;
+  width: 58px;
+  height: 58px;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(7px);
+  border-radius: 100px;
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #F06344;
+  transform: rotate(-22.02deg);
+  padding: 18px 0;
+}
+.banner-text{
+  position: relative;
+}
+.banner-text:before{
+  content: "";
+  position: absolute;
+  width: 36px;
+  height: 50px;
+  top: 35px;
+  right: -17px;
+  background-image: url(../img/icon-arrow.png);
+}
