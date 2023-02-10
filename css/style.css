@@ -241,6 +241,8 @@ a:hover{
   -moz-box-shadow: 0px 5px 10px 10px rgba(1, 188, 188, 0.2);
   box-shadow: 0px 5px 10px 10px rgba(1, 188, 188, 0.2) !important;
   border: none;
+  position: relative;
+  z-index: 1;
 }
 .main-banner .btn-regular{
   position: relative;
@@ -275,4 +277,455 @@ a:hover{
   top: 35px;
   right: -17px;
   background-image: url(../img/icon-arrow.png);
+}
+section{
+  padding: 60px 0;
+}
+.section-title{
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+  color: #313131;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.feet-box{
+  padding: 15px;
+  border-radius: 10px;
+  filter: drop-shadow(0px 10px 40px rgba(40, 40, 40, 0.15));
+  background-size: cover;
+  background-position: right;
+  height: 157px;
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  color: #313131;
+}
+.feet-box ul{
+  padding-left: 20px;
+  margin-top: 12px;
+}
+.block-quotte{
+  max-width: 570px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 70px rgba(40, 40, 40, 0.1);
+  border-radius: 10px;
+  padding: 28px 60px;
+  margin: auto;
+  font-family: 'SF UI Display';
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #313131;
+  position: relative;
+}
+.block-quotte span{
+  color: #28B8CC;
+  border-bottom: 1px solid #28B8CC;
+  font-weight: 400;
+}
+.block-quotte:before{
+  content: "";
+  position: absolute;
+  width: 33px;
+  height: 31px;
+  left: 30px;
+  top: -15px;
+  background-image: url("../img/icon-mark1.svg");
+}
+.block-quotte:after{
+  content: "";
+  position: absolute;
+  width: 33px;
+  height: 31px;
+  right: 30px;
+  bottom: -15px;
+  background-image: url("../img/icon-mark2.svg");
+}
+.section-subtitle{
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  color: #545454;
+  letter-spacing: 0.02em;
+}
+.musculoskeletal ul li span{
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  display: block;
+}
+.musculoskeletal ul li{
+  font-weight: 300;
+  font-family: 'SF UI Display';
+  font-size: 17px;
+  position: relative;
+  list-style: none;
+  padding-left: 9px;
+  margin-bottom: 15px;
+}
+.musculoskeletal ul li:before{
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: -5px;
+  width: 7px;
+  height: 7px;
+  background: #28B8CC;
+  border-radius: 1px;
+}
+.musculoskeletal-title{
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 110%;
+  color: #28B8CC;
+  margin-bottom: 50px;
+  max-width: 350px;
+}
+.musculoskeletal-subtitle{
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #313131;
+  margin-bottom: 20px;
+}
+.musculoskeletal-subtitle img{
+  margin-right: 8px;
+}
+
+.callback-title{
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 110%;
+  letter-spacing: 0.04em;
+}
+.callback{
+  background-image: url("../img/callback-bg.jpg");
+}
+.musculoskeletal{
+  background-image: url("../img/circle.png");
+  background-position: 48% center;
+  background-repeat: no-repeat;
+}
+.musculoskeletal-tooltips{
+  max-width: 320px;
+  position: relative;
+  z-index: 1;
+  left: -20px;
+}
+.musculoskeletal-tooltips div{
+  position: absolute;
+  width: 12.5px;
+  height: 12.5px;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+.musculoskeletal-tooltips .active{
+  transform: scale(1.8);
+}
+.musculoskeletal-tooltips div:before{
+  content: "";
+  position: absolute;
+  left: -3.6px;
+  top: -3.6px;
+  width: 20px;
+  height: 20px;
+  border: .7px dashed #fff;
+  border-radius: 50%;
+  transition: all .5s ease;
+}
+.musculoskeletal-tooltips .active:before{
+  transform: rotate(90deg);
+}
+.musculoskeletal-tooltip1{
+  top: 14%;
+  left: 49%;
+}
+.musculoskeletal-tooltip2{
+  top: 26%;
+  left: 38%;
+}
+.musculoskeletal-tooltip3{
+  top: 41%;
+  left: 43%;
+}
+.musculoskeletal-tooltip4{
+  top: 48%;
+  left: 45%;
+}
+.musculoskeletal-tooltip5{
+  top: 59%;
+  left: 82%;
+}
+.musculoskeletal-tooltip6{
+  top: 85%;
+  left: 66%;
+}
+.musculoskeletal-tooltip7{
+  top: 87%;
+  left: 4%;
+}
+.musculoskeletal-tabs{
+  width: 470px;
+  max-width: 470px;
+  background: #FFFFFF;
+  box-shadow: -20px 10px 40px rgba(40, 40, 40, 0.2);
+  border-radius: 10px;
+  padding: 0 50px 30px 80px;
+  position: absolute;
+  right: 0;
+}
+.musculoskeletal-tabs ul{
+  border: none;
+}
+.musculoskeletal-tabs li{
+  padding: 0 !important;
+  list-style: none;
+}
+.musculoskeletal-tabs li a{
+  width: 17px;
+  height: 28px;
+  padding: 0;
+  margin-right: 28px;
+  background: rgba(49, 49, 49, 0.1);
+  border: none !important;
+  border-radius: 0 !important;
+  position: relative;
+  transition: all .5s ease;
+}
+.musculoskeletal-tabs li a:before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8px;
+  border: 8.1px solid transparent;
+  border-bottom: 8px solid #fff;
+  transition: all .5s ease;
+}
+.musculoskeletal-tabs li a.active{
+  background-color: #313131 !important;
+}
+.musculoskeletal-tabs li a.active:before{
+  background: #313131;
+}
+.musculoskeletal-tabs ul li:before{
+  display: none;
+}
+.musculoskeletal-tabs__title{
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #313131;
+  margin: 20px 0;
+}
+.musculoskeletal-tabs p{
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  color: #313131;
+}
+.advantages{
+  position: relative;
+  background: linear-gradient(111.54deg, rgba(162, 255, 240, 0.4) -17.62%, rgba(28, 145, 231, 0.85) 68.49%);
+}
+.advantages-bg{
+  position: absolute;
+  bottom: 75px;
+  left: 16%;
+}
+.advantages-box{
+  padding: 30px 25px;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background-image: url("../img/advantages-circle.png");
+  background-repeat: no-repeat;
+  background-position: right 15px top 15px;
+}
+.advantages-title{
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 130%;
+  color: #000;
+  text-transform: uppercase;
+  padding: 0;
+}
+.advantages p{
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  color: #000000;
+  margin-top: 30px;
+}
+.advantages-img{
+  position: absolute;
+}
+.advantages .row .col-md-4:nth-child(4){
+  margin-top: -65px;
+}
+.advantages .row .col-md-4:nth-child(5){
+  margin-top: 15px;
+}
+.advantages .row .col-md-4:nth-child(6){
+  margin-top: 35px;
+}
+.advantages .row .col-md-4:nth-child(7){
+  margin-top: -130px;
+}
+.advantages .row .col-md-4:nth-child(1) .advantages-img{
+  top: -25px;
+  right: 20px;
+}
+.advantages .row .col-md-4:nth-child(2) .advantages-img{
+  top: -20px;
+  right: 30px;
+}
+.advantages .row .col-md-4:nth-child(3) .advantages-img{
+  top: -8px;
+  right: 42px;
+}
+.advantages .row .col-md-4:nth-child(4) .advantages-img{
+  top: 0;
+  right: 35px;
+}
+.advantages .row .col-md-4:nth-child(5) .advantages-img{
+  top: -25px;
+  right: 20px;
+}
+.advantages .row .col-md-4:nth-child(6) .advantages-img{
+  top: -10px;
+  right: 45px;
+}
+.advantages .row .col-md-4:nth-child(7) .advantages-img{
+  top: 25px;
+  right: 25px;
+}
+.attention-box{
+  padding: 30px 25px;
+  box-shadow: 0px 10px 70px rgba(40, 40, 40, 0.1);
+  border-radius: 10px;
+  background-color: #fff;
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #313131;
+  margin-top: 130px;
+  position: relative;
+}
+.attention-box__img{
+  position: absolute;
+  bottom: 35px;
+  right: 30px;
+}
+.musculoskeletal .attention-box__img{
+  position: absolute;
+  bottom: 40px;
+  right: -60px;
+  z-index: 1;
+}
+.musculoskeletal .attention-box{
+  margin-top: 30px;
+}
+.age-box{
+  background: #FFFFFF;
+  box-shadow: 0px 10px 70px rgba(40, 40, 40, 0.1);
+  border-radius: 20px;
+  padding: 50px 40px;
+  margin-top: 80px;
+}
+.age-title{
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: 0.04em;
+  color: #28B8CC;
+  margin-bottom: 30px;
+}
+.plus{
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 130%;
+  color: #000000;
+}
+.plus-title{
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.plus-img{
+  height: 43px;
+  margin-bottom: 20px;
+}
+.age-box .row .col-md-4:nth-child(2){
+  padding: 0 30px;
+  border-right: 1.5px dashed rgba(0, 0, 0, 0.2);
+  border-left: 1.5px dashed rgba(0, 0, 0, 0.2);
+
+}
+.technologies-box__img{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+.technologies-box{
+  background: #FFFFFF;
+  box-shadow: 0px 10px 70px rgb(40 40 40 / 10%);
+  border-radius: 20px;
+  padding: 50px 40px;
+  margin-top: 80px;
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 130%;
+  color: #000000;
+}
+.technologies-box .col-md-3:before{
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 16px;
+  height: 16px;
+  background-image: url("../img/technologies-circle.svg");
 }
