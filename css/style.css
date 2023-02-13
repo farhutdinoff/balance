@@ -417,6 +417,9 @@ section{
 }
 .callback{
   background-image: url("../img/callback-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
 }
 .musculoskeletal{
   background-image: url("../img/circle.png");
@@ -791,9 +794,13 @@ section{
   z-index: -1;
   background: linear-gradient(157.65deg, rgba(110, 233, 213, 0.85) -9.06%, rgba(28, 145, 231, 0.85) 102.83%);
 }
+.manufacturing .row .col-6:nth-child(2){
+  margin-top: 140px;
+}
 .manufacturing-box{
   position: relative;
   padding-top: 60px;
+  margin-bottom: 80px;
 }
 .manufacturing-box__numb{
   position: absolute;
@@ -943,4 +950,90 @@ section{
 }
 .footer a{
   text-decoration: underline;
+}
+.diagnostics{
+  margin-top: -260px;
+  background-image: url("../img/diagnostics-dashed.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.diagnostics-box__img{
+  text-align: center;
+}
+.diagnostics-box{
+  position: relative;
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  color: #000000;
+  padding-top: 150px;
+}
+.diagnostics-box__item{
+  position: absolute;
+  max-width: 250px;
+}
+.diagnostics-box__item:nth-child(2){
+  bottom: 120px;
+  left: 11%;
+}
+.diagnostics-box__item:nth-child(3){
+  bottom: 305px;
+  left: 7%;
+}
+.diagnostics-box__item:nth-child(4){
+  bottom: 505px;
+  left: 12%;
+}
+.diagnostics-box__item:nth-child(5){
+  top: -30px;
+  left: 46%;
+}
+.diagnostics-box__item:nth-child(6){
+  top: 175px;
+  left: auto;
+  right: 5%;
+}
+.diagnostics-box__item:nth-child(7){
+  bottom: 220px;
+  left: auto;
+  right: 0%;
+}
+.diagnostics-box__numb{
+  position: relative;
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 100%;
+  color: #EDEDED;
+  padding-left: 15px;
+}
+.diagnostics-box__numb:before{
+  content: "";
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  left: 5px;
+  top: 15px;
+  background-image: url("../img/icon-tick.svg");
+}
+.diagnostics .attention-box{
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-top: -30px;
+}
+.attention-box__title{
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: 0.04em;
+  color: #313131;
 }
